@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/pirat/IdeaProjects/MaxWebsiteMaven">
+        <classes>
+            <class name="BaseTest"></class>
+            <class name="LoginTest"></class>
+            <class name="NavigationTest"></class>
+            <class name="BookmarkTest"></class>
+            <class name="SettingsTest"></class>
+            <class name="ProfileTest"></class>
+            <class name="SearchTest"></class>
+            <class name="VideoPlaybackTest"></class>
+        </classes>
+    </test>
+</suite>

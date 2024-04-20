@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/pirat/IdeaProjects/MaxWebsiteMaven(failed)">
+    <classes>
+      <class name="BookmarkTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="removeMyList"/>
+          <include name="setUp"/>
+          <include name="testMyStuff"/>
+          <include name="ClickHistory"/>
+          <include name="clickMyList"/>
+        </methods>
+      </class> <!-- BookmarkTest -->
+      <class name="ProfileTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="dropDownProfile"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- ProfileTest -->
+      <class name="SearchTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testSearch"/>
+        </methods>
+      </class> <!-- SearchTest -->
+    </classes>
+  </test> <!-- C:/Users/pirat/IdeaProjects/MaxWebsiteMaven(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
