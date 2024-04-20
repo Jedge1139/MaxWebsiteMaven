@@ -21,9 +21,9 @@ public class SettingsTest extends BaseTest{
                 .findElement(By.cssSelector("div > div > div.login-username-container > div > gi-login-username")).getShadowRoot().findElement(By.cssSelector("gi-track-analytics-events > div > gi-form > form > div.button-group > button.button.submit-button.button--loud.button--medium.button--full-width"));
         Thread.sleep(2000);
         // Perform actions within the Shadow DOM
-        usernameInput.sendKeys("mtedge330@gmail.com");
+        usernameInput.sendKeys(""); // Login Credintals Removed
         Thread.sleep(2000);
-        passwordInput.sendKeys("8094Lake.");
+        passwordInput.sendKeys(""); // Login Credintals Removed
         Thread.sleep(2000);
         loginButton.click();
 
